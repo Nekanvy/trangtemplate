@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap');
+body{
+    scroll-behavior: smooth;
+	font-family: 'Raleway', sans-serif;
+}
+/*h1,h2,h3,ul,li{font-family: 'Kaisei Opti', serif;}*/
+#headerweb{
+    height: 500px;
+	width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	z-index: 100;
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 15px;
+}
+header ul li a:hover{
+	color: white;
+	background-color: black;
+	padding: 10px;
+	text-decoration: none;
+}
+header{
+	padding: 30px;
+}
+#headerweb img{
+    width: 200px;
+}
+#headerweb i{
+    color:black;
+    margin-left: 15px ;
+}
+footer{
+	background-color: black;
+}
+.motcot ul{
+	list-style-type: none;
+}
+footer hr{
+	border: 0.5px solid white;
+}
+footer img{
+	width: 200px;
+}
+.btc img{
+	padding: 30px;
+}
+
+
+
